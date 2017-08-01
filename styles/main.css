@@ -1,0 +1,167 @@
+.grid {
+	width: 60%;
+	/*height: 500px;*/
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.col {
+	background-color: black;
+	flex: 0 0 100%;
+	box-sizing: border-box;
+	border-bottom: 2px solid yellow;
+	/*padding: 50px;*/
+	
+}
+
+.col-2 {
+	background-color: #d9d9d9;
+	flex: 0 0 100%;
+	box-sizing: border-box;
+	/*padding: 30px;*/
+	
+}
+
+.col-3 {
+	background-color: white;
+	flex: 0 0 100%;
+	box-sizing: border-box;
+	/*padding: 200px;*/
+	/*border-bottom: 1px solid black;*/
+	
+}
+
+.col-one-third {
+	background-color: white;
+	border-right: 1px solid grey;
+	flex: 1 0 25%;
+	box-sizing: border-box;
+	padding-bottom: 30px;
+	/*padding: 100px;*/
+	
+}
+
+.col-footer {
+	background-color: black;
+	flex: 0 0 100%;
+	box-sizing: border-box;
+	/*padding: 18px;*/
+	
+}
+
+.last {
+	border-right: none;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 25px;
+	color: yellow;
+	padding-left: 20px;
+
+}
+
+.upper {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+	/*padding: 10px;*/
+	color: white;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: inline-block;
+	padding-left: 20px;
+	color: white;
+	font-size: 16px;
+}
+
+.navbar {
+	padding-left: 40px;
+}
+
+.phrase {
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	margin-left: 130px;
+	/*text-align: center;*/
+}
+
+.crossed-out {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.underlined {
+	border-bottom: 2px solid yellow;
+}
+
+img {
+	background-image: url("coworking.jpg");
+	width: 100%;
+}
+
+.profile {
+	border: 1px solid grey;
+	width: 15%;
+	position: absolute;
+	background-color: #edeff2;
+	opacity: 0.6;
+	margin-left: 500px;
+	margin-top: 150px;
+}
+
+.box {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 15px;
+
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-size: 14px;
+	padding: 10px;
+
+}
+
+.yellow {
+	text-transform: uppercase;
+	background-color: yellow;
+	margin-left: 15px;
+	padding: 10px;
+	font-size: 15px;
+	margin-bottom: 15px;
+
+
+}
+
+.footer {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 12px;
+	padding-left: 10px;
+
+}
+
+.box-one-third {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-size: 20px;
+	/*padding: 10px;*/
+}
+
+.grey {
+	text-transform: uppercase;
+	background-color: #d9d9d9;
+	margin-left: 35px;
+	font-size: 15px;
+
+}
+
